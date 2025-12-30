@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react"
-import { product } from "../../data/products"
+import { product } from "../data/products"
 import Link from "next/link"
 import Image from "next/image"
 
