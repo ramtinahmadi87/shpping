@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ProductsClient from "./ProductsClient";
 export default function Home() {
   
   return (
@@ -15,7 +16,7 @@ export default function Home() {
           
         </div>
       </header> 
-
+          <ProductsClient/>
     </main>
   );
 }
